@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header_wrapper {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    padding: 15px 100px;
+    height: 10vh;
+}
+
+.nav_list {
+    display: inline-block;
+}
+
+.nav_list > li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 380px 0 100px;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links img {
+margin-right: 20px;
+}
+
+.main-page {
+    height: 90vh;
+    background-color: #F0EFEB;
+}
+
+.guides {
+    height: 100vh;
+}
+
+.title {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 60px; 
+    padding-top: 40px;
+}
+
+.text {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;  
+    padding-top: 50px; 
+    padding-bottom: 40px;
+}
+
+.button {
+    background: #000;
+    border-radius: 100px;
+    height: 36px;
+    width: 130px;
+    color: #fff;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px; 
+    border: none;
+    
+}
+
+.main-content-wrapper {
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 188px;
+    vertical-align: top;
+    
+}
+
+.main image {
+display: inline-block
+}
